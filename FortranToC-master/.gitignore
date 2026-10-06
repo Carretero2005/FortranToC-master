@@ -1,0 +1,29 @@
+### Java e IntelliJ ###
+.idea/
+*.class
+*.iml
+*.log
+out/
+target/
+build/
+temp/
+
+### ANTLR (Específico) ###
+# Bloqueamos los archivos que ANTLR genera automáticamente
+gen/
+*.tokens
+*.interp
+
+### IDEs (Eclipse, VS Code, NetBeans) ###
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+nbproject/private/
+nbbuild/
+dist/
+
+### OS ###
+.DS_Store
+Thumbs.db
